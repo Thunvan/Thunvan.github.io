@@ -1,4 +1,4 @@
-> coding is to solve problem, not to show  
+> Coding is to solve problem, not to show  
 > 算法是通往未来的钥匙
 
 我是Thunvan，80后程序员，主要从事于图像处理、视频压缩、机器学习方面的工程实践。
