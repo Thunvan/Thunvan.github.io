@@ -21,8 +21,8 @@ RSS: false
 highlighter: rouge
 permalink: pretty
 paginate: 10
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","README.zh.md"]
-anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+anchorjs: true              # if you want to customize anchor. check out line:181 of `post.html`
 # If you have timezone issue (e.g. #68) in China, uncomment to use this:
 #timezone: CN  
 
@@ -58,22 +58,21 @@ kramdown:
 netease_comment: false
 
 
-
 # Analytics settings
 # Baidu Analytics 
 # ba_track_id: [your track id]
 
 # Google Analytics
 
+
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "summary is get<br>写是思的延伸"
-#sidebar-avatar: /img/avatar-hux-ny.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
-
+sidebar-about-description: "Summary is Gain<br>写是思的延伸"
+sidebar-avatar: /img/avantar_thunvan.png     # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 # Featured Tags
-featured-tags: true                     # whether or not using Feature-Tags
+featured-tags: false                     # whether or not using Feature-Tags
 featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
 
 
@@ -87,20 +86,5 @@ service-worker: true
 # MathJax rendering for layout:page (e.g. post preview)
 page-mathjax: false
 
-
-
-# Friends
-friends: [
-    #{
-    #     title: "Su",
-    #     href: "http://su.gallery/"
-    # },{
-    #    title: "乱序",
-    #    href: "http://mida.re/"
-    #},{
-    #    title: "前端外刊评论",
-    #    href: "http://qianduan.guru/"
-    #}
-]
 
 port: 5002
