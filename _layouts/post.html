@@ -27,9 +27,17 @@ layout: default
                     <option value="0" selected> 中文 Chinese </option>
                     <option value="1"> 英文 English </option>
                 </select>
-                {% endif %}
+                {% endif %}                
 
 				{{ content }}
+                
+                <p class="Page View">                   
+                    {% if site.busuanzi-open %}
+                    <span id="busuanzi_container_page_pv">
+                    总阅读量： <span id="busuanzi_value_page_pv"></span> 
+                    </span>
+                    {% endif %}
+                </p>
 
                 <hr style="visibility: hidden;">
                 <ul class="pager">
