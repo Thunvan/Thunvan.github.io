@@ -10,6 +10,10 @@
                     Copyright &copy; Thunvan {{ site.time | date: '%Y' }} 
                     <br>                  
                     Powered by Jekyll with Hux Theme
+                    <br>
+                    <span id="busuanzi_container_site_uv">
+                    总访问量： <span id="busuanzi_value_site_uv"></span>
+                    </span>
                 </p>
             </div>
         </div>
@@ -237,4 +241,9 @@
     // init
     _render();
 </script>
+{% endif %}
+
+
+{% if site.busuanzi-open %}
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 {% endif %}
